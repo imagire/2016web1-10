@@ -13,14 +13,18 @@ body{
 header{
     padding: 10px;
     text-align: center;/* 中央揃え */
+    background-color: red;
 }
 section{
     padding: 10px;
+    background-color: orange;
 }
 aside{
     padding: 10px;
+    background-color: green;
 }
 footer{
     padding: 10px;
+    background-color: blue;
     text-align: center;/* 中央揃え */
 }

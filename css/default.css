@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 /* reset css */
 * {
@@ -29,14 +30,14 @@
 
 @media screen and (orientation:portrait){
     body:after {
-        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Javanese', sans-serif;;
         content: "縦長";
     }
 }
 
 @media screen and (orientation:landscape){
     body:after {
-        font-family: 'Noto Sans JP', sans-serif;
+        ffont-family: 'Noto Sans Javanese', sans-serif;;
         content: "横長";
     }
 }

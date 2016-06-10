@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 /* reset css */
 * {
@@ -7,37 +6,7 @@
     padding: 0;
 }
 
-/* 640px以下 */
-@media screen and (max-width:640px){
-    body{
-        background-color: red;
-    }
-}
-
-/* 640px以上 980px以下 */
-@media screen and (min-width:641px) and (max-width:980px){
-    body{
-        background-color: green;
-    }
-}
-
-/* 981px以上 */
-@media screen and (min-width:981px){
-    body{
-        background-color: blue;
-    }
-}
-
-@media screen and (orientation:portrait){
-    body:after {
-        font-family: 'Noto Sans Javanese', sans-serif;;
-        content: "縦長";
-    }
-}
-
-@media screen and (orientation:landscape){
-    body:after {
-        ffont-family: 'Noto Sans Javanese', sans-serif;;
-        content: "横長";
-    }
+.body{
+    max-width: 940px;
+    padding: 10px;
 }

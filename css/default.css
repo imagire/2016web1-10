@@ -32,10 +32,11 @@ footer{
 /* 641px以上 */
 @media screen and (min-width:641px){
     .side{
+        width: 50%;
         float:left;
     }
     .side:after{
-        /* clear-fix */
+        /* clearfix */
         content:"";
         display:block;
         clear:both;

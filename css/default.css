@@ -28,3 +28,23 @@ footer{
     background-color: blue;
     text-align: center;/* 中央揃え */
 }
+
+/* 641px以上 */
+@media screen and (min-width:641px){
+    .side{
+        float:left;
+    }
+    .side:after{
+        /* clear-fix */
+        content:"";
+        display:block;
+        clear:both;
+    }
+}
+
+/* 1025px以上 */
+@media screen and (min-width:1025px){
+    body{
+        background-color: blue;
+    }
+}

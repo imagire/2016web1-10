@@ -29,14 +29,14 @@
 
 @media screen and (orientation:portrait){
     body:after {
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Noto Sans JP', sans-serif;
         content: "縦長";
     }
 }
 
 @media screen and (orientation:landscape){
     body:after {
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Noto Sans JP', sans-serif;
         content: "横長";
     }
 }

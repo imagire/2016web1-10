@@ -30,13 +30,13 @@
 @media screen and (orientation:portrait){
     body:after {
         font-family: 'Indie Flower', cursive;
-        content: "portrait";
+        content: "Portrait";
     }
 }
 
 @media screen and (orientation:landscape){
     body:after {
         font-family: 'Indie Flower', cursive;
-        content: "landscape";
+        content: "Landscape";
     }
 }

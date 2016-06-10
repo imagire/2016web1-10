@@ -26,3 +26,15 @@
         background-color: blue;
     }
 }
+
+@media screen and (orientation:portrait){
+    body {
+        content: "横向き";
+    }
+}
+
+@media screen and (orientation:landscape){
+    body {
+        content: "縦向き";
+    }
+}

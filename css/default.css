@@ -28,13 +28,13 @@
 }
 
 @media screen and (orientation:portrait){
-    body {
+    body:after {
         content: "横向き";
     }
 }
 
 @media screen and (orientation:landscape){
-    body {
+    body:after {
         content: "縦向き";
     }
 }

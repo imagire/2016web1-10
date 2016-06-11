@@ -31,7 +31,7 @@ footer{
 
 /* 641px以上 */
 @media screen and (min-width:641px){
-    #side{
+    aside{
         width: calc(50% - 40px);
         float:left;
     }

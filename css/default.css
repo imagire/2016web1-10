@@ -55,9 +55,6 @@ footer{
         width: calc(70% - 20px);
         float:left;
     }
-    #side{
-        float:right;
-    }
     aside{
         width: calc(30% - 20px);
         float:left;

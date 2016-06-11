@@ -11,6 +11,7 @@ body{
 }
 
 header{
+    width: 100%;
     padding: 10px;
     text-align: center;/* 中央揃え */
     background-color: red;
@@ -24,6 +25,7 @@ aside{
     background-color: green;
 }
 footer{
+    width: 100%;
     padding: 10px;
     background-color: blue;
     text-align: center;/* 中央揃え */
@@ -45,7 +47,7 @@ footer{
 
 /* 1025px以上 */
 @media screen and (min-width:1025px){
-    body{
-        background-color: blue;
+    .main{
+        max-width: 1024px;
     }
 }

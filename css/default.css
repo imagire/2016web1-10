@@ -50,10 +50,4 @@ footer{
     #main{
         max-width: 1024px;
     }
-    aside{
-        margin: auto;
-    }
-    section{
-        margin: auto;
-    }
 }

@@ -51,14 +51,20 @@ footer{
         max-width: 1024px;
         margin: auto;
     }
-    #side{
-        float:left;
-    }
     section{
         width: calc(70% - 20px);
         float:left;
     }
+    #side{
+        float:left;
+    }
     aside{
         width: calc(30% - 20px);
+    }
+    #main:after{
+        /* clearfix */
+        content:"";
+        display:block;
+        clear:both;
     }
 }

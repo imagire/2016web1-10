@@ -60,6 +60,5 @@ footer{
     }
     aside{
         width: calc(30% - 20px);
-        float:none;
     }
 }

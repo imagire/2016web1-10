@@ -61,10 +61,4 @@ footer{
     aside{
         width: calc(100% - 20px);
     }
-    #main:after{
-        /* clearfix */
-        content:"";
-        display:block;
-        clear:both;
-    }
 }

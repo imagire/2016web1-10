@@ -47,7 +47,7 @@ footer{
 
 /* 1025px以上 */
 @media screen and (min-width:1025px){
-    .main{
+    #main{
         max-width: 1024px;
     }
 }

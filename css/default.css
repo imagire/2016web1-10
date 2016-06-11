@@ -59,7 +59,7 @@ footer{
         float:left;
     }
     aside{
-        width: calc(30% - 20px);
+        width: calc(100% - 20px);
     }
     #main:after{
         /* clearfix */

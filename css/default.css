@@ -56,10 +56,11 @@ footer{
         float:left;
     }
     #side{
+        width: calc(1024px - 718px - 20px);
         float:left;
     }
     aside{
-        width: calc(1024px - 718px - 20px);
+        width: calc(50% - 20px);
     }
     #main:after{
         /* clearfix */
